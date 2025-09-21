@@ -66,6 +66,4 @@ function playGame() {
 
 }
 
-const computerSelection = getComputerChoice;
-
 playGame();
