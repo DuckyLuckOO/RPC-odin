@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <script src="./backend.js"></script>
-</body>
-</html>
+    <body>
+        <div id="window">
+            <div id="score">
+                <p id="value">0 - 0</p>
+            </div>
+            <div class="Buttons">
+                <button id="rock-btn">
+                    <img src="rock.svg"/>
+                </button>
+                <button id="paper-btn">
+                    <img src="paper.svg"/>
+                </button>
+                <button id="scissors-btn">
+                    <img src="scissors.svg"/>
+                </button>
+            </div>
+            <div id="Result">The winner is</div>
+        </div>
+        <script src="./backend.js"></script>
+    </body>
+</html> 
